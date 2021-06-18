@@ -32,3 +32,21 @@ After locating the chip, you will need to find the following pins:
 ![Determine Pinout](Images/DeterminePinout.jpg)
 
 Once you determine the pinout, it's time to warm up the soldering iron and put down some breakout wires.  After the wires are broken out, you can connect them to the ST-Link.
+
+![Soldering](Images/Soldering.jpg)
+
+After soldering, it's time to connect the ST Link.  You want to connect as follows (ST Link --> Keyboard):
+
+* SWCLK --> SWCLK
+* SWDIO --> SWDIO
+* 3.3V --> VCC
+* GND --> Both GND and BOOT
+
+In the picture, the wires coming out of the ST Link:
+
+* White: 3.3V
+* Black: GND
+* Purple: SWCLK
+* Gray: SWDIO
+
+![Connecting ST Link](Images/ConnectingSTLink.jpg)
